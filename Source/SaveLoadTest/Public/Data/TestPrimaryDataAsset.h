@@ -11,9 +11,9 @@ struct FTestData
 {
 	GENERATED_BODY()
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Test")
-	float MyFloat {10.0f};
+	FString item {""};
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Test")
-	FString MyString {"dis be may spida /\\(,;,,;,)/\\"};
+	float value {-1.0f};
 };
 
 UCLASS()
